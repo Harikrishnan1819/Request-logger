@@ -1,0 +1,25 @@
+{
+    "name": "requestlogger/requestlogger",
+    "description": "A Basic Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Requestlogger\\Requestlogger\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "requestlogger\\requestlogger\\RequestLogserviceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Harikrishnan1819",
+            "email": "harikrishnan@sparkouttech.com"
+        }
+    ],
+    "require": {}
+}
